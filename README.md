@@ -1,7 +1,7 @@
 
 # Hexite ZenXAI AWS Infrastructure
 
-This repository contains Terraform configurations for provisioning AWS infrastructure to support the Hexite ZenXAI project in the `dev` environment.
+This repository contains Terraform configurations for provisioning AWS infrastructure to support the Hexite ZenXAI project in the `basic dev` environment with default VPC.
 
 ## 🔧 Components Deployed
 
@@ -104,11 +104,11 @@ Defined in `outputs.tf`:
 
 ## 📄 License
 
-This project is licensed under the MIT License. See `LICENSE` file for details.
+This project is licensed under the GNU GENERAL PUBLIC LICENSE. See `LICENSE` file for details.
 
 ---
 
 ## 🧩 Notes
 
-- The current setup is intended for development environments.
+- The current setup is intended for basic development environments with default VPC.
 - For production, ensure better CIDR restrictions and secure secret handling using tools like AWS Secrets Manager or SSM.
